@@ -3,7 +3,7 @@ import '../services/game_service.dart';
 import '../models/game.dart';
 
 class GameProvider with ChangeNotifier {
-  GameService _gameService = GameService();
+  final GameService _gameService = GameService();
   List<Game> _games = [];
 
   List<Game> get games => _games;

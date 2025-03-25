@@ -6,7 +6,7 @@ import '../models/game.dart';
 class GameDetailScreen extends StatefulWidget {
   final String gameId;
 
-  GameDetailScreen({required this.gameId});
+  const GameDetailScreen({super.key, required this.gameId});
 
   @override
   _GameDetailScreenState createState() => _GameDetailScreenState();

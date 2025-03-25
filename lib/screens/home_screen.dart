@@ -4,6 +4,8 @@ import '../providers/game_provider.dart';
 import '../screens/game_detail_screen.dart';
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }

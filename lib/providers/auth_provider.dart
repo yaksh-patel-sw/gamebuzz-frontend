@@ -3,7 +3,7 @@ import '../models/user.dart';
 import '../services/auth_service.dart';
 
 class AuthProvider with ChangeNotifier {
-  AuthService _authService = AuthService();
+  final AuthService _authService = AuthService();
   String? _token;
 
   String? get token => _token;
